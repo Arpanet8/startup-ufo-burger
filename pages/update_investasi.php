@@ -9,7 +9,7 @@ if (isset($_GET['update_id'])) {
   if ($result = $conn->query("SELECT * FROM investasi where id = $id")) {
   }
 } else {
-  header("location: /admin?page=list-investasi");
+  header("location: ../admin?page=list-investasi");
 }
 ?>
 
